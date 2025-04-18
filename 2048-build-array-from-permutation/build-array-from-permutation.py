@@ -1,9 +1,9 @@
 class Solution:
     def buildArray(self, nums: List[int]) -> List[int]:
-        arr = []
-        for val in nums :
-            arr.append(nums[val])
-        return arr
+        permutation_order = []
+        for values in nums :
+            permutation_order.append(nums[values])
+        return permutation_order
 
         
 
